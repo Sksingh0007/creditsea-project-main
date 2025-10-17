@@ -140,36 +140,6 @@ creditsea-project/
 
 ---
 
-If you'd like, I can:
-
-- Add a small troubleshooting section showing how to `git rm --cached` tracked files to remove files now ignored by .gitignore.
-- Update frontend pages to read env via a small `src/config.js` so tests avoid `import.meta` parsing issues.
-
-Tell me which of those you'd like me to do next.
-
-### Reports List
-
-![Reports List](assects/reports-list.png)
-
-### Report Detail
-
-![Report Detail](screenshots/report-detail.png)
-
----
-
-## 🎥 Demo Video
-
-[Watch Demo Video](https://youtu.be/your-demo-video-link)
-
-**Video Contents:**
-
-- Project overview (30 seconds)
-- File upload demonstration (1 minute)
-- Report viewing and navigation (1.5 minutes)
-- API testing (1 minute)
-- Code walkthrough (1 minute)
-
----
 
 ## 🐛 Troubleshooting
 
@@ -246,15 +216,7 @@ This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
 
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
----
 
 ## 🙏 Acknowledgments
 
@@ -265,14 +227,5 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📞 Support
-
-For issues or questions:
-
-- Create an issue on GitHub
-- Email: support@creditsea.com
-- Documentation: [Wiki](https://github.com/yourusername/creditsea/wiki)
-
----
 
 **Made with ❤️ for CreditSea Assignment**
