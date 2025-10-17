@@ -1,0 +1,254 @@
+
+.report-detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+
+.report-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.back-button:hover {
+  background: rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
+}
+
+.report-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+
+.report-section {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.section-icon {
+  font-size: 1.8rem;
+  opacity: 0.7;
+}
+
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.detail-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  transition: all 0.3s;
+}
+
+.detail-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.detail-card label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-card p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.detail-card.highlight {
+  border-color: #667eea;
+  background: rgba(102, 126, 234, 0.1);
+}
+
+
+.score {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.score.excellent { color: #10b981; }
+.score.good { color: #f59e0b; }
+.score.fair { color: #ef4444; }
+
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.summary-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.summary-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.summary-card h3 {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 0.3rem;
+}
+
+.summary-value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.summary-subtitle {
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+
+.accounts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.account-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+
+.account-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.account-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.status-badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.status-badge.active {
+  background: #10b98133;
+  color: #10b981;
+}
+
+.status-badge.closed {
+  background: #ef444433;
+  color: #ef4444;
+}
+
+.account-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.account-label {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.account-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.account-value.overdue {
+  color: #ef4444;
+  font-weight: 700;
+}
+
+
+.addresses-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.address-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.05);
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.address-number {
+  font-weight: 600;
+  color: #667eea;
+}
+
+
+@media (max-width: 768px) {
+  .report-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .details-grid, .summary-grid, .accounts-list {
+    grid-template-columns: 1fr;
+  }
+}

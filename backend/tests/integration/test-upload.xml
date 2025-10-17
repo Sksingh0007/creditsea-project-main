@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <CreditReport>
+          <Applicant>
+            <n>API Test User</n>
+            <Telephone><Number>1234567890</Number></Telephone>
+            <Identifier><PAN>TEST12345A</PAN></Identifier>
+          </Applicant>
+          <Score><Value>720</Value></Score>
+          <Accounts>
+            <Account>
+              <AccountType>Credit Card</AccountType>
+              <Institution>Test Bank</Institution>
+              <AccountNumber>TEST123</AccountNumber>
+              <Status>Active</Status>
+              <CurrentBalance>25000</CurrentBalance>
+              <AmountOverdue>0</AmountOverdue>
+            </Account>
+          </Accounts>
+        </CreditReport>
